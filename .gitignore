@@ -1,0 +1,5 @@
+.terraform
+_archive/
+*.ignore
+*.pub
+source.sh
