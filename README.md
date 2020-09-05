@@ -20,6 +20,7 @@ At the end of the creation of the VPC and EC2 instance you will be able to acces
 - Linux Ubuntu
 - Zabbix version 5.0
 - MySQL server
+- Apache server
 
 ## Get started
 
