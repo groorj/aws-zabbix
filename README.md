@@ -40,9 +40,9 @@ Lines to change:
 | variables.tf | `default = "<YOUR_SSH_FILENAME>"` | Replace `<YOUR_SSH_FILENAME>` with the SSH public file you will use to access your instance. This file must be place into the same folder as the Terraform code and the name must match. |
 | variables.tf | `default     = ["<YOUR_IP>/32"]` | Replace `<YOUR_IP>` with your IP or any other IPs you would like to give access to Zabbix. The variable named `zabbix_access_allowed_ip_addresses` will give access to the Zabbix user interface while the variable `zabbix_service_allowed_ip_addresses` will allow the communication with the Zabbix server on port TCP 10050 and 10051. |
 | user-data.sh | `ZABBIX_PKG_NAME="zabbix-release_5.0-1+bionic_all.deb"` | You can replace with the latest package version if you wish. |
-| user-data.sh | `DB_USER="zabbix"` | Replace with your DB username if you wish. |
-| user-data.sh | `DB_PASS="zabbix"` | Replace with your DB password if you wish. |
-| user-data.sh | `DB_NAME="zabbix"` | Replace with your DB name if you wish. |
+| user-data.sh | `DB_USER="zabbix"` | Replace `zabbix` with your DB username. |
+| user-data.sh | `DB_PASS="zabbix"` | Replace `zabbix` with your DB password. |
+| user-data.sh | `DB_NAME="zabbix"` | The default is `zabbix`. Replace as appropriate. |
 
 
 ## How to use it
